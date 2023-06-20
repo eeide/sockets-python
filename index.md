@@ -134,7 +134,7 @@ import socket
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
 ```
 
-in the Python terminal, to create a UDP socket. (Note that the argument `socket.sock_DGRAM` specifies the type as a UDP socket.) 
+in the Python terminal, to create a UDP socket. (Note that the argument `socket.SOCK_DGRAM` specifies the type as a UDP socket.) 
 
 This doesn't send any data over the network - it just sets up the local data structures that will keep information about this socket.
 
